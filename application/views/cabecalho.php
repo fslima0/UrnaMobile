@@ -20,7 +20,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
       <header>
          <nav class="navbar navbar-light fixed-top text-white" style="background-color: #006400;">
             <a class="navbar-brand" href="<?= base_url(); ?>">
-               <img src="<?= base_url('assets/img/IconDefensoria.png'); ?>" height="35" width="70" />
+               <img src="<?= base_url('assets/img/logo.png'); ?>" height="35" width="70" />
             </a> 
             <?php if ($this->session->userdata('logado') == TRUE): ?>
             <div class="text-right">
